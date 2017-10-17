@@ -1,7 +1,10 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
 
 version = VERSION_NAME
-group = GROUP
+group='com.github.jd-alexander'
+
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
